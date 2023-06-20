@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rod's CSS Snippet Cheatsheet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+  <header class="site-header">
+    <h1 class="title">CSS SNIPPET CHEATSHEET</h1>
+    <p class="subtitle">YOU KEEP DISREMEMBERING HOW YOU MANAGE TO WRITE A PIECE OF CODE THE LAST TIME? ADD IT TO THIS PAGE AND FREE SPACE IN YOUR BRAIN! NOW YOU'LL JUST NEED TO COPY/PASTE IT. </p>
+  </header>
+  
+  <main>
+    <div class="snippets">
+        <div class="snippet">
+            <header class="snippet-header">Flexbox Row</header>
+            <p class="snippet-subtitle">Use these three properties to create a Flexbox row layout.</p>
+            <div class="code-snippet">
+                <p>.row {</p>
+                <ul>
+                    <li>display: flex;</li>
+                    <li>flex-direction: row;</li>
+                    <li>flex-wrap: wrap;</li>
+                </ul>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div class="snippet">
+            <header class="snippet-header">Flexbox Column</header>
+            <p class="snippet-subtitle">Use this to create a Flexbox column layout.</p>
+            <div class="code-snippet">
+                <p>.column {</p>
+                <ul>
+                    <li>display: flex;</li>
+                    <li>flex-direction: column;</li>
+                </ul>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div class="snippet">
+            <header class="snippet-header">CSS Grid Layout</header>
+            <p class="snippet-subtitle">Build a 12-column layout using CSS Grid.</p>
+            <div class="code-snippet">
+                <p>.grid {</p>
+                <ul>
+                    <li>display: grid;</li>
+                    <li>width: 100%;</li>
+                    <li>grid-template-columns:</li>
+                </ul>
+                <p>repeat(12. 1fr);</p>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div class="snippet">
+            <header class="snippet-header">Linear Gradients</header>
+            <p class="snippet-subtitle">This will create a background linear gradient from top to bottom.</p>
+            <div class="code-snippet">
+                <p>.linear-gradient-background {</p>
+                <ul>
+                    <li>background-image: linear-gradient (to bottom, rgb(204, 93, 125, 0.3) 0%, rgb(204, 93, 125, 0.3) 100%); </li>
+                </ul>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div class="snippet">
+            <header class="snippet-header">Box Transition Glow</header>
+            <p class="snippet-subtitle">Use transition and box shadows to glow on hover.</p>
+            <div class="code-snippet">
+                <p>.snippet:hover {</p>
+                <ul>
+                    <li>box-shadow: inset 0 0 5rem rgb(115, 229, 241), 0 0 10rem rgb(62, 151, 245);</li>
+                    <li>transition: all 0.5s ease-in-out;</li>
+                </ul>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div class="snippet">
+            <header class="snippet-header">Overlay Card with Title</header>
+            <p class="snippet-subtitle">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+            <div class="code-snippet">
+                <p>.card-header {</p>
+                <ul>
+                    <li>position: relative;</li>
+                    <li>margin-top: -20px;</li>
+                </ul>
+                <p>}</p>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <h3>Made with 🦾 and CSS by Rod</h3>
+  </footer>
+</body>
+
+</html>
